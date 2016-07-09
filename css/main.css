@@ -12,6 +12,12 @@ body {
 	z-index: 1;
 }
 
+.text {
+	font-size: 30px;
+	margin: 20px 4em 0 600px;
+	position: absolute;
+}
+
 .ryu {
 	float: left;
 	width: 659px;

@@ -26,21 +26,21 @@ $(document).ready(function() {
 		$('.ryu-ready').show();
 	})
 
-	$(document).keydown(function(key) {
-		if (key.keyCode === 88) {
+	$(document).keydown(function(event) {
+		if (event.keyCode === 88) {
 			$('.ryu-still').hide();
 			$('.ryu-ready').hide();
 			$('.ryu-cool').show();
 		}
-	}).keyup(function(key){
-		if (key.keyCode === 88) {
+	}).keyup(function(event){
+		if (event.keyCode === 88) {
 			$('.ryu-still').show();
 			$('.ryu-ready').hide();
 			$('.ryu-cool').hide();
 		}
 	
 
-});
+	});
 });
 
 	function playHadouken () {
